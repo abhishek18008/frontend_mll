@@ -1,0 +1,28 @@
+#topBar{
+  height: 75px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+#logo{
+  height: 100%;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+#logo img{
+  height: 100%;
+  width: 70%;
+}
+#user{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 150px;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+#user img{
+  height: 60px;
+  width: 60px;
+}
