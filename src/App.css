@@ -1,14 +1,17 @@
 *{
   margin: 0;
 }
+body{
+  background-color: silver;
+}
 .center{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 #topBar{
+  background-color: white;
   height: 75px;
-  border: 2px solid black;
   justify-content: space-between;
 }
 #logo{
@@ -30,13 +33,12 @@
   width: 60px;
 }
 #midSec{
-  height: 70px;
-  border: 2px solid black;
+  height: 90px;
   display: flex;
 }
 #listLeftSec{
   height: 100%;
-  width: 15vw;
+  width: 12vw;
   flex-direction: column;
   font-weight: bold;
 }
@@ -56,5 +58,16 @@
 
 }
 #search{
-  margin: 15px;
+  margin: 38px;
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+}
+.table{
+  width: 95vw;
+}
+#tableSec{
+  display: flex;
+  justify-content: center;
 }

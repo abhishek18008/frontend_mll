@@ -59,6 +59,7 @@ const data = [
 const RfpTable = () => {
   return (
     <>
+      <div id="tableSec">
       <table class="table">
         <thead class="table-light">
           <tr>
@@ -103,6 +104,7 @@ const RfpTable = () => {
           ))}
         </tbody>
       </table>
+      </div>
     </>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function RFPList() {
+function RFPList() {  
   return (
     <div id="midSec">
       <div id="listLeftSec" className='center'>
@@ -8,7 +8,7 @@ function RFPList() {
         <h2>RFP List</h2>
       </div>
       <div id="listMidSec">
-        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        <div class="btn-group" role="group" aria-label="Default button group">
             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked/>
             <label class="btn btn-outline-danger fw-bold text-dark" for="btnradio1">All RFP's</label>
 
