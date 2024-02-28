@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 #topBar{
   height: 75px;
   border: 2px solid black;
@@ -25,4 +28,22 @@
 #user img{
   height: 60px;
   width: 60px;
+}
+#midSec{
+  height: 70px;
+  border: 2px solid black;
+}
+#listLeftSec{
+  height: 100%;
+  border: 2px solid black;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+#listLeftSec p{
+  color: grey;
+  margin: 0;
 }
