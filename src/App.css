@@ -1,26 +1,26 @@
 *{
   margin: 0;
 }
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #topBar{
   height: 75px;
   border: 2px solid black;
-  display: flex;
   justify-content: space-between;
 }
 #logo{
   height: 100%;
   width: 300px;
-  display: flex;
-  justify-content: center;
 }
 #logo img{
   height: 100%;
   width: 70%;
 }
 #user{
-  display: flex;
   height: 100%;
-  align-items: center;
   width: 150px;
   justify-content: space-evenly;
   font-size: 18px;
@@ -32,18 +32,29 @@
 #midSec{
   height: 70px;
   border: 2px solid black;
+  display: flex;
 }
 #listLeftSec{
   height: 100%;
-  border: 2px solid black;
-  width: 200px;
-  display: flex;
+  width: 15vw;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-weight: bold;
 }
 #listLeftSec p{
   color: grey;
   margin: 0;
+}
+#listMidSec{
+  height: 100%;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+}
+#listRightSec{
+  width: 35vw;
+  justify-content:end;
+
+}
+#search{
+  margin: 15px;
 }
