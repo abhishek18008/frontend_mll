@@ -1,15 +1,22 @@
-import logo from './logo.svg';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import TopBar from './components/TopBar';
 import RFPList from './components/RFPList';
-import RfpTable from './components/RfpTable';
+import RfpDetail from './components/RfpDetail'
+
 
 function App() {
   return (
     <>
       <TopBar/>
-      <RFPList/>
-      <RfpTable/>
+      <Router>
+        <Routes>
+          <Route path='/' element={<RFPList/>}/>
+          <Route path='/rfps/:rfpId' element={<RfpDetail rfpId=""/>}/>
+        </Routes>
+      </Router>
+      
     </>
   );
 }
